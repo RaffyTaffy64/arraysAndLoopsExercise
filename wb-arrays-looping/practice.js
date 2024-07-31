@@ -189,9 +189,9 @@ function stopAtNegative(inputArray) {
   let newArray = [];
   // Code here
 
-  for (let x = inputArray.length + 1; x >= 0; x -= 0) {
+  for (let i = inputArray.length + 1; i <= 0; i ++) {
     
-    newArray.push(inputArray [x])
+    newArray.push(inputArray[0])
 
   }
 
